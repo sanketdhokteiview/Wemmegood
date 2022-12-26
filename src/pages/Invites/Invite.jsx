@@ -2,7 +2,12 @@ import React from 'react'
 import invite from "./invite.css"
 import { Navbar } from '../../components/Navbar/Navbar'
 import {Footer} from "../../components/Footer/Footer"
+import { useEffect } from 'react'
 export const Invite = () => {
+    useEffect(() => {
+        window.history.scrollRestoration = 'manual'
+        window.scrollTo(0,0)
+      }, []);
     const wedding_card = [
         {
             'hedding': 'Wedding Cards 158 Items',
@@ -78,17 +83,17 @@ export const Invite = () => {
                             <div className='wedding-cards d-flex'>
                                 <div>
                                 {/* autoPlay  controls loop */}
-                                    <video src={clip.video1}  />
+                                    <video src={clip.video1}  autoPlay controls loop/>
                                     <h6 className='my-2 mx-1'> {clip['type-1']}</h6>
                                 </div>
                                 {/* autoPlay controls  loop */}
-                                <div> <video src={clip.video2} />  <h6 className='my-2 mx-1'>{clip['type-2']}</h6>
+                                <div> <video src={clip.video2} autoPlay controls loop/>  <h6 className='my-2 mx-1'>{clip['type-2']}</h6>
                                 </div>
                                 {/* autoPlay controls  loop */}
-                                <div> <video src={clip.video3}  />  <h6 className='my-2 mx-1'>{clip['type-3']}</h6>
+                                <div> <video src={clip.video3}  autoPlay controls loop/>  <h6 className='my-2 mx-1'>{clip['type-3']}</h6>
                                 </div>
                                 {/* autoPlay controls  loop */}
-                                <div> <video src={clip.video4}  />  <h6 className='my-2 mx-1'>{clip['type-4']}</h6>
+                                <div> <video src={clip.video4}  autoPlay controls loop/>  <h6 className='my-2 mx-1'>{clip['type-4']}</h6>
                                 
                                 </div>
                             </div>

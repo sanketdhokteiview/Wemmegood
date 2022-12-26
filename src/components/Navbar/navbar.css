@@ -106,6 +106,10 @@
     outline: 0;
     top: 71px;
 }
+#right img{
+    margin-right: 46px;
+
+}
 #left .button {
     padding-right: 110px;
     border: none;

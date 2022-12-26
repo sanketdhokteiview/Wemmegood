@@ -26,10 +26,10 @@
     justify-content: space-between;
 }
 #footer-align #app-btns{
-    margin-left: 600px;
+    margin-left: 480px;
 }
 #footer-align #app-btns button {
-    width: 80%;
+    /* width: 80%;
     margin-right: 100px;
     background-color: black;
     color: white;
@@ -39,7 +39,7 @@
     padding-top: 15px;
     margin-bottom: 10px;
     margin-left: 6px;
-    border-radius: 8px;
+    border-radius: 8px; */
 }
 
 #copy-rights {
@@ -57,4 +57,40 @@
 
 #footer p {
     font-size: 15px;
+}
+.input-sub{
+    height: 40px;
+    padding: 10px;
+}
+.input-sub:focus{
+    outline: none;
+}
+.subtn{
+    height: 40px;
+    border: none;
+    border-radius: 0;
+    background-color: #e72e77;
+    color: white;
+}
+.footer-btns .onee{
+    border: 1px solid #e72e77;
+    /* background-color: #e72e77; */
+}
+.footer-btns .twoo{
+    border: 1px solid #03b2cb;
+    /* background-color: #03b2cb; */
+}
+.footer-btns .onee:hover{
+    background-color: #e72e77;
+    color: white;
+    transition: 0.6s ease;
+}
+.footer-btns .twoo:hover{
+    background-color: #03b2cb;
+    color: white;
+    transition: 0.6s ease;
+}
+#app-btns img{
+    margin: 3px;
+    cursor: pointer;
 }

@@ -6,21 +6,34 @@ export const Login = () => {
         <>
             <Navbar />
             <div className='section-login'>
-                <div className='login-card'>
+                <div className='login-card '>
                     <div>
-                        <img src="	https://images.wedmegood.com/images/otploginsidebardesktop.png" alt="" />
+                        <img src="	https://images.wedmegood.com/images/otploginsidebardesktop.png" className='img1' alt="" />
                     </div>
                     <div id='login-cells'>
-                        <h4>Sign In / Sign Up</h4>
-                        <input type="email" placeholder=' |  Enter email or mobile*' name="" id="" />
-                        <hr />
-                        <p>OR</p>
-                        <h5>Continue With</h5>
-                        <div>
-                            <button>Facebook</button>
-                            <button>Google</button>
+                        <h4 className='my-3'>Sign In / Sign Up</h4>
+                        
+                        <div className='d-flex creating-cell'>
+                            <img src="https://images.wedmegood.com/react-frontend-v4/static/media/usericon.ccaad18e.svg" className='img2 mx-2' alt="" />
+                            <p className='pt-2 faid-txt mx-2'>|</p>
+                            <input type="email" placeholder='Enter email or mobile*' className='mx-2' name="" id="" />
                         </div>
-                    <h5>Are you a vendor? <button>Business Sign In</button></h5>
+                        <div className='div-or'>
+                            <hr />
+                            <div className='or'>
+                                <h6>OR</h6>
+                            </div>
+                        </div>
+                        <br />
+                        <h5 className='text-center'>Continue With</h5>
+                        <div className='d-flex fb-google'>
+                            <button className='w-50 p-10 bg-white fb'>Facebook</button>
+                            <button className='w-50 p-10 mx-2 bg-white google'>Google</button>
+                        </div>
+                        <br />
+                        <div className='business-sign text-center'>
+                        <h5 className='faid-txt'>Are you a vendor? <button className='w-50 p-10 mx-2 bg-white '>Business Sign In</button></h5>
+                        </div>
                     </div>
                 </div>
             </div>

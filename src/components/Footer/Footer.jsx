@@ -1,5 +1,6 @@
 import React from 'react'
 import footer from './footer.css'
+import { Link } from 'react-router-dom'
 export const Footer = () => {
     return (
         <>
@@ -19,11 +20,13 @@ export const Footer = () => {
                                 0124-6812345
                             </p>
                             <p><strong>Get Latest Blog Alerts</strong></p>
-                            <input type="email" placeholder='Email*' />
-                            <button>Submit</button>
+                            <input type="email" placeholder='Email*' className='input-sub' />
+                            <button className='subtn'>Submit</button>
                             <p></p>
-                            <button type="button" class="btn btn-outline-danger mx-2">Submit Wedding</button><br/><br/>
-                            <button type="button" class="btn btn-outline-primary">Register as a Vendor</button>
+                            <div className='d-flex footer-btns'>
+                           <Link to="../Login"> <button type="button" class="btn onee ">Submit Wedding</button><br/><br/></Link>
+                          <Link to="../Login">  <button type="button" class="btn  twoo mx-3">Register as a Vendor</button></Link>
+                            </div>
                         </div>
                         <div id="socail-acc">
                             <p><strong>Follow us on:</strong></p>
@@ -37,13 +40,10 @@ export const Footer = () => {
                     </div>
                     <div id='app-btns'>
                         <p><strong>Get The WedMeGood App</strong></p>
-                        <button>
-                            <p> App Store</p>
-                        </button>
+                      
+                          <img src="https://www.wedmegood.com/static/media/download-app-store.9a3541d8.png" type="button" data-bs-toggle="modal" data-bs-target="#exampleModall" alt="" />
                         <br />
-                        <button>
-                            <p> Google Play</p>
-                        </button>
+                           <img src="https://www.wedmegood.com/static/media/download-play-store.787ef1b7.png" type="button" data-bs-toggle="modal" data-bs-target="#exampleModall" alt="" />
                     </div>
                 </div>
                 <hr />

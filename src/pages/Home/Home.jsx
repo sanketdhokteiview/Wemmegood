@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 export const Home = () => {
   useEffect(() => {
     window.history.scrollRestoration = 'manual'
+    window.scrollTo(0,0)
   }, []);
   let fun_loc = [
     {
@@ -288,7 +289,7 @@ export const Home = () => {
 
         </section>
         <section className='section-p1 d-flex'>
-          <div id="accordion" className='w-50 '>
+          {/* <div id="accordion" className='w-50 '>
             <div class="card">
               <div class="card-header" id="headingOne">
                 <h5 class="mb-0">
@@ -377,7 +378,7 @@ export const Home = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
       </section>
       <h3 className='section-p1'>WMG Inhouse Services</h3>
@@ -392,7 +393,7 @@ export const Home = () => {
                 <p></p>
                 <p><strong>{functionlocation.funName}</strong></p>
                 <p>{functionlocation.location}</p>
-                <button id="btn">{functionlocation.button}</button>
+               <Link to="../Wedsta"> <button id="btn">{functionlocation.button}</button></Link>
               </div>
               <br />
             </>

@@ -42,7 +42,7 @@ export const Photos = () => {
             {photos_catgr.map((catg) => {
               return (
                 <>
-                
+
                   <div className="card cardss" >
                     <img src={catg.img} className="card-img-top" alt="..." />
                     <p className="card-text genie-txt mx-2 ">{catg.type}</p>
@@ -67,9 +67,9 @@ export const Photos = () => {
         <div className=''>
 
           <div className='columns'>
-          <div  class="" data-bs-toggle="modal" data-bs-target="#exampleModalll">
+
             <img src="https://image.wedmegood.com/resized/450X/uploads/images/99d9a0c11be94990ab92d30600bb15carealwedding/0A5A9313.jpg" alt="" />
-            </div>
+
             <img src="https://image.wedmegood.com/resized/450X/uploads/images/42e2760f31404cb2a3b7b029c919399erealwedding/0A5A0292.jpg" alt="" />
             <img src="https://image.wedmegood.com/resized/450X/uploads/images/134b5bf7e2e3432e90b71d27712918e0realwedding/0A5A0585.jpg" alt="" />
             <img src="https://image.wedmegood.com/resized/450X/uploads/images/c13f5c3be587404aab751ef7f1e888acrealwedding/AKW-144.jpg" alt="" />
@@ -88,16 +88,22 @@ export const Photos = () => {
             <img src="https://image.wedmegood.com/resized/450X/uploads/project/138316/1622189105_PicsArt_05_25_12.11.23.jpg" alt="" />
             <img src="https://image.wedmegood.com/resized/450X/uploads/member/178758/1620312041_SSM_732.jpg" alt="" />
             <img src="https://image.wedmegood.com/resized/450X/uploads/images/3de667e0eca24f50834bb7df1d65f23brealwedding/ASHU4376.jpg" alt="" />
+            <img src="https://image.wedmegood.com/resized/450X/uploads/images/42e2760f31404cb2a3b7b029c919399erealwedding/0A5A0292.jpg" alt="" />
+            <img src="https://image.wedmegood.com/resized/450X/uploads/images/134b5bf7e2e3432e90b71d27712918e0realwedding/0A5A0585.jpg" alt="" />
+            <img src="https://image.wedmegood.com/resized/450X/uploads/images/c13f5c3be587404aab751ef7f1e888acrealwedding/AKW-144.jpg" alt="" />
+            <img src="https://image.wedmegood.com/resized/450X/uploads/images/88926fa47aa54aefbb2a0d3fb83907b2realwedding/DEV_3085.JPG" alt="" />
+            <img src="https://image.wedmegood.com/resized/450X/uploads/images/f474f9570df3485f9fb0437cd617d29crealwedding/paromaweddimg_001.jpg" alt="" />
+            <img src="https://image.wedmegood.com/resized/450X/uploads/images/270ea64bea394a6e911f881b26d05feerealwedding/9.jpg" alt="" />
           </div>
 
         </div>
       </div>
-      
+
       <div class="modal fade" id="exampleModalll" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
-              {/* <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> */}
-              {/* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> */}
+            {/* <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> */}
+            {/* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> */}
             <div class="modal-body">
               <img src="https://image.wedmegood.com/resized/450X/uploads/images/99d9a0c11be94990ab92d30600bb15carealwedding/0A5A9313.jpg" alt="" />
             </div>

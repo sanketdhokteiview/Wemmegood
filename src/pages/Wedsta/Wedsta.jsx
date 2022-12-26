@@ -129,13 +129,26 @@ export const Wedsta = () => {
         <h3>Our Latest Work</h3>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+              <div>
+                <div >
+                  <img src="https://image.wedmegood.com/resized/400X/uploads/project/189535/1651210919_IMG_20220429_WA0014.jpg?crop=0,352,853,480" alt="" />
+                  <h3>Koyli's makeover</h3>
+                  <p>Diamond Package | Pune </p>
+                  <p>Uploaded on 29 Apr 2022 </p>
+                </div>
+              </div>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
+
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">
+
+            </a>
           </li>
         </ul>
         <div class="tab-content" id="myTabContent">

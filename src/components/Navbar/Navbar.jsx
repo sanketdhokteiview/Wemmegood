@@ -1,7 +1,12 @@
 import React from 'react'
 import navbar from "./navbar.css";
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react'
 export const Navbar = () => {
+    useEffect(() => {
+        window.history.scrollRestoration = 'manual'
+        window.scrollTo(0,0)
+      }, []);
     return (
         <>
 
@@ -14,7 +19,7 @@ export const Navbar = () => {
                 </div>
 
                 <div id="right">
-                    <Link to="../Review"><i class="fa-light fa-pen-nib"></i>Write A Review</Link>
+                    <Link to="../Review">Write A Review</Link>
                     <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModall">
                         Download App
                     </button>
@@ -63,7 +68,7 @@ export const Navbar = () => {
                     <Link to="../../Invite"> E-Invites</Link>
                 </div>
                 <div id="right">
-                    <img src="https://image.wedmegood.com/resized/14X/images/icons/search_icon_white.png" className='search-icon' alt="" />
+                    {/* <img src="https://image.wedmegood.com/resized/14X/images/icons/search_icon_white.png" className='search-icon' alt="" /> */}
                     <Link to="../Login">     <button className='loging-btn'>
                         Log In
                     </button></Link>

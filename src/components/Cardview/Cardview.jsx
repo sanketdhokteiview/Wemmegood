@@ -332,11 +332,14 @@ export const Cardview = () => {
                                 </div>
             
                                 <div class="progress">
-                                <input type="checkbox" /> 5 <i className='fa fa-star star' ></i>
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{ width: "60%" }}>
-                                        100%
-                                    </div> 
-                                </div> 11  reviews <br />
+                                {/* <input type="checkbox" /> 5 
+                                <i className='fa fa-star star' ></i>
+                                <i className='fa fa-star star' ></i>
+                                <i className='fa fa-star star' ></i>
+                                <i className='fa fa-star star' ></i>
+                                  */}
+                                </div> 
+                                 <br />
                             
                                 <p className='faid-txt'>Last Review Updated on 30 Jun 2022</p>
                             </div>

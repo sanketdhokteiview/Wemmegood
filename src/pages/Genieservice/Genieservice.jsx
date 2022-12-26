@@ -2,6 +2,7 @@ import React from 'react'
 import { Navbar } from '../../components/Navbar/Navbar'
 import genieservice from "./genieservice.css"
 import {Footer} from "../../components/Footer/Footer"
+import { Link } from 'react-router-dom'
 export const Genieservice = () => {
     let feedback = [
         {
@@ -64,7 +65,7 @@ export const Genieservice = () => {
 
                             </div>
                             <div class="card-footer">
-                                <small><p class="card-text genie-txt">Continue &gt;</p></small>
+                              <Link to="../Login"> <small><p class="card-text genie-txt">Continue &gt;</p></small></Link> 
                             </div>
                         </div>
                         <div class="card mx-4">
@@ -76,7 +77,7 @@ export const Genieservice = () => {
                                 <p>Complimentary WMG Mynt membership (access discounts on 50+ brands)</p>
                             </div>
                             <div class="card-footer">
-                                <small ><p class="card-text genie-txt">Continue &gt;</p></small>
+                             <Link to="../Login">  <small ><p class="card-text genie-txt">Continue &gt;</p></small></Link> 
                             </div>
                         </div>
                         <div class="card ">
@@ -88,7 +89,7 @@ export const Genieservice = () => {
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere ex magnam ipsum, pariatur nobis.</p>
                             </div>
                             <div class="card-footer">
-                                <small ><p class="card-text genie-txt">Continue &gt;</p></small>
+                             <Link to="../Login">  <small ><p class="card-text genie-txt">Continue &gt;</p></small></Link> 
                             </div>
                         </div>
                     </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import realwedding from "./realwedding.css"
 import { Navbar } from '../Navbar/Navbar'
 import { Footer } from "../Footer/Footer"
+import { Link } from 'react-router-dom'
 export const Realwedding = () => {
     const photos = [{
         'img1': "https://image.wedmegood.com/resized/450X/uploads/images/89c7779451824ed2903eafe54492c898realwedding/wedding-1.jpg?crop=328,190,1619,911",
@@ -94,7 +95,7 @@ export const Realwedding = () => {
     return (
         <>
             <Navbar />
-            
+
             <section id='banner-img-txt'>
                 <h5>Real Wedding on WedMeGood | Photos & Trending Ideas</h5>
                 <p>Browse pictures from real weddings shared by couples on WedMeGood. Know latest wedding trends, outfit ideas, vendors chosen by real brides & grooms in different cities and culture.</p>
@@ -126,21 +127,23 @@ export const Realwedding = () => {
                     {photos.map((data) => {
                         return (
                             <>
-                                <div className='photos-grid'>
-                                    <div className='big-img'>
-                                        <img src={data.img1} alt="" />
-                                    </div>
-                                    <div className='side-by-side flex-photos'>
-                                        <div>
-                                            <img src={data.img2} alt="" />
+                                <Link to="../Allfunctionphotos">
+                                    <div className='photos-grid'>
+                                        <div className='big-img'>
+                                            <img src={data.img1} alt="" />
                                         </div>
-                                        <div>
-                                            <img src={data.img3} alt="" />
+                                        <div className='side-by-side flex-photos'>
+                                            <div>
+                                                <img src={data.img2} alt="" />
+                                            </div>
+                                            <div>
+                                                <img src={data.img3} alt="" />
+                                            </div>
                                         </div>
+                                        <div className='text-center my-2'>Chahela tanaya</div>
+                                        <div className='text-center'>Mumbai</div>
                                     </div>
-                                    <div className='text-center my-2'>Chahela tanaya</div>
-                                    <div className='text-center'>Mumbai</div>
-                                </div>
+                                </Link>
                             </>
                         )
                     })}
