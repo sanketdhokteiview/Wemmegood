@@ -1,0 +1,23 @@
+.section-login{
+    padding: 20px 200px;
+    max-width: 1700px;
+}
+.section-login .login-card{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 15px;
+    height: 80vh;
+}
+.section-login .login-card img{
+    max-width: 400px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    line-height: 60px;
+    padding: 20px;
+    min-width: 400px;
+    height: 600px;
+}
+.section-login .login-card #login-cells{
+    margin-left: 30px;
+    width: 80%;
+}

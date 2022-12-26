@@ -1,0 +1,216 @@
+#heading {
+    background-color: #b4245d;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 64px 0px 55px;
+   backface-visibility: hidden;
+}
+
+#heading #left a {
+    margin: 13px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#heading #right {
+    /* margin: 10px; */
+    display: flex;
+}
+#heading #right button {
+    margin-right: 12px;
+    background: transparent;
+    color: white;
+    border: none;
+}
+#heading #right a {
+    margin: 7px;
+    margin-right: 55px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.downl-pop .modal.show .modal-dialog {
+    margin-right: 197px;
+    transform: none;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.app-photo-mobile img {
+    width: 324px;
+    height: 540px;
+    object-fit: cover;
+    margin-left: 77px;
+}
+.download-app-button {
+    background-color: #e72e77!important;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 10px 25px;
+    justify-content: center;
+    text-align: center;
+    width: 318px;
+    border: none;
+    margin-top: 30px;
+}
+.enter-number:focus{
+    outline: none;
+}
+.enter-number{
+    background: transparent;
+    border: none;
+    width: 330px;
+    border-bottom: 2px solid #c1c0c0;
+}
+.country-format{
+    background: transparent;
+    border: none;
+    width: 57px!important;
+    border-bottom: 2px solid #c1c0c0;
+}
+#Navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 52px 10px 52px;
+    background-color: #e72e77;
+   
+    backface-visibility: hidden;
+}
+#Navbar #left a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 3px;
+}
+.modal {
+    --bs-modal-border-radius: 0;
+}
+#right .modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: #ffebe8;
+    /* background-color: var(--bs-modal-bg); */
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+    top: 71px;
+}
+#left .button {
+    padding-right: 110px;
+    border: none;
+    margin-top: 3px;
+    border-radius: 1px;
+}
+#Navbar #right a{
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    text-decoration: none;
+   font-size: 17px;
+}
+.parent {
+    width: 35%;
+    margin: 20px;
+    height: 250px;
+    border: 1px solid blue;
+    overflow: hidden;
+    position: relative;
+	cursor: pointer;
+}
+.loging-btn{
+    background-color: #b4245d;
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .5s;
+}
+
+
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+} 
+.modal-body input{
+    width: 100%;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+}
+#cities,#cities a{
+    display: flex;
+    justify-content: space-between;
+    font-family: proxima-nova,sans-serif;
+    padding: 6px;
+    font-weight: 200;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+#cities a:hover{
+    font-size: 15px;
+    font-weight: 550;
+}
+#cities .txt-color{
+    margin-top: 10px;
+    font-family: proxima-nova,sans-serif;
+    color: #e72e77;
+    font-weight: 400;
+    text-align: left;
+}
+#cities .modal-bg-color{
+    padding: 0px 20px 0px 20px;
+    background-color: rgb(225, 220, 220);
+    width: 200px;
+    height: 200%;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--bs-modal-color);   
+    pointer-events: auto;
+    background-color: var(--bs-modal-bg);
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+    top: 71px;
+}
+
+
+.download-app{
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: rgb(231, 46, 119);
+    border: 1px solid rgb(231, 46, 119);
+    position: relative;
+}

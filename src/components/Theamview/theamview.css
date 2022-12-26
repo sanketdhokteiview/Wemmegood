@@ -1,0 +1,286 @@
+.section-p2 {
+    padding: 20px 138px 0px;
+    max-width: 1600px;
+    margin-bottom: -58px;
+}
+
+.theambgcolor {
+    background-color: #eaeaea;
+}
+/* 
+.breedcrumb {
+    max-width: 1350px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.breedcrumb button {
+    position: relative;
+    top: 65px;
+    right: 15%;
+    padding: 13px;
+    width: 371px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.breedcrumb input {
+    position: relative;
+    top: 65px;
+    right: 10%;
+    padding: 13px;
+    width: 256px;
+    border: none;
+    border-radius: 6px;
+}
+
+.breedcrumb .listgrid {
+    position: relative;
+    top: 73px;
+    margin-left: 10px;
+    left: -32px;
+}
+
+.breedcrumb .listgrid img {
+    margin-left: 15px;
+} */
+
+.color-txt {
+    color: #e72e77;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#theamoptions {
+    max-width: 900px;
+    margin: 10px 136px 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid rgb(226, 226, 226);
+    ;
+}
+
+#theamoptions:hover {
+    box-shadow: 4px 7px 10px -2px rgb(0 0 0 / 75%);
+}
+
+#theamoptions #card-img #first-img img {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 3px;
+    width: 250px;
+}
+
+
+#theamoptions #card-img .second-img-set img {
+    border-radius: 10px;
+    padding-left: 5px;
+    width: 62px;
+    height: 8vh;
+}
+
+#theamoptions #entier-data {
+    width: 570px;
+    margin-left: 18px;
+}
+
+#theamoptions .card-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+#entier-data .card-location {
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 50px 0px 0px;
+    margin: 0px -2px 0px -25px;
+}
+
+#entier-data .card-menu {
+    display: flex;
+    margin-top: 10px;
+}
+
+#entier-data .card-menu .first-item {
+    margin-right: 60px;
+    margin-bottom: 15px;
+    line-height: 10px;
+}
+
+#entier-data #card-options {
+    display: flex;
+}
+
+#entier-data #card-options div,
+#entier-data #card-options button {
+    /* background-color: #eceaea; */
+    margin-right: 4px;
+    padding: 1px;
+    border: none;
+}
+
+.star {
+    color: #e72e77;
+}
+
+#located-at {
+    margin-top: 10px;
+}
+
+.faid-txt {
+    color: #909090;
+}
+
+#located-at #sendbtn {
+    position: relative;
+    /* border-radius: 6px; */
+    top: 9px;
+    left: 72%;
+    display: flex;
+    height: 40px;
+    width: 124px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin: 1px 0px 0px 48px;
+    padding: 12px 14px 11px;
+    right: 0px;
+    bottom: 0px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(231, 46, 119);
+    pointer-events: auto;
+}
+#theamoptions:hover {
+    cursor: pointer;
+}
+
+#venuebytype {
+    position: relative;
+    top: 10px;
+    width: max-content;
+    height: 276px;
+    border-radius: 4px;
+    border: 1px solid rgb(226, 226, 226);
+    background-color: white;
+    left: -158px;
+}
+
+#venuebytype:hover,
+#venuebybudget:hover {
+    box-shadow: 4px 7px 10px -2px rgba(0, 0, 0, 0.75);
+    /* transition: 0.3s; */
+
+}
+
+#venuebytype h6 {
+    text-align: center;
+}
+#venuebytype #venueoptions {
+    display: flex;
+    width: 320px;
+    padding: 10px;
+    margin-top: 22px;
+    justify-content: space-around;
+    align-content: stretch;
+}
+
+#venuebytype #venueoptions img {
+    position: relative;
+    left: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#venuebytype p {
+    text-align: center;
+    font-size: 14px;
+}
+
+#venuebybudget {
+    position: relative;
+    width: max-content;
+    height: max-content;
+    border-radius: 4px;
+    border: 1px solid rgb(226, 226, 226);
+    background-color: white;
+    top: 40px;
+    left: -154px;
+}
+
+#venuebybudget h6 {
+    text-align: center;
+}
+
+#venuebybudget #venueoptions {
+    display: flex;
+    width: 317px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 0px;
+}
+
+#venuebybudget #venueoptions img {
+
+    position: relative;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+#venuebybudget p {
+    text-align: center;
+    font-size: 14px;
+}
+
+#card-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.question {
+    margin-top: 50px;
+    padding: 20px 130px;
+    max-width: 1600px;
+    background-color: #f8f8f8;
+}
+
+.question .lite-data {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: proxima-nova, sans-serif;
+}
+
+.question .questions {
+    background-color: #e7e7e7;
+    padding: 5px;
+    margin-bottom: 10px;
+    /* border: 0px solid rgb(186, 186, 186); */
+}
+
+#feedback .feedback-data {
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#feedback .feedback-data img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 10px 20px 10px 0px;
+}

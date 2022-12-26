@@ -1,0 +1,52 @@
+.section-p4 {
+    width: 1500px;
+    padding: 35px;
+    /* margin: auto; */
+    /* background-color: aquamarine; */
+    overflow: hidden;
+}
+
+.one {
+    width: 1560px;
+}
+
+.cardss {
+    width: 220px;
+    height: 150px;
+    margin: 5px;
+}
+/* .card img {
+    padding: 6px;
+    width: 100%;
+    object-fit: cover;
+    height: 219px;
+} */
+.columns {
+    width: 102%;
+    height: 2076px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.columns img {
+    object-fit: cover;
+    padding: 10px;
+    width: 25%;
+    border: 2px double #e72e77;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 102%;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: var(--bs-modal-bg);
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+    top: 71px;
+}

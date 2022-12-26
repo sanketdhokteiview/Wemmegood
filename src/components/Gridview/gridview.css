@@ -1,0 +1,132 @@
+
+.viewasgrid {
+    background-color: rgb(244, 236, 236);
+    padding-bottom: 100px;
+}
+.star{
+color: rgb(231, 46, 119);}
+#gridview {
+    background-color: white;
+    margin-top: 0px;
+    width: 400px;
+    border-radius: 6px;
+    padding-bottom: 0px 0px 0px 0px;
+    padding-bottom: 21px;
+    padding: 10px;
+    margin: 6px;
+}
+.listgrid:hover{
+    cursor: pointer;
+}
+.listgrid a{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.displaygrid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gridview:hover {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 7px 10px -2px rgb(0 0 0 / 45%);
+    transition: 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+#gridview img {
+    width: 380px;
+    border-radius: 8px;
+
+
+}
+
+#gridview .grid-data {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3px;
+}
+
+.dishprices {
+    display: flex;
+    padding: 10px;
+}
+
+.dishprices .nonveg {
+    margin-left: 23px
+}
+
+#gridview .grid-data .name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 3px;
+
+}
+
+#gridview .grid-data span {
+    font-size: 15px;
+    margin-left: 3px;
+
+}
+
+.name {
+    margin-top: 6px;
+    font-size: 17px;
+}
+
+#gridview button {
+    width: fit-content;
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(219, 215, 215);
+}
+
+.grid-all-data {
+    line-height: 0.8;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(62, 62, 62);
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+.search-help-genie {
+    margin-top: 67px;
+    margin-left: 137px;
+    display: flex;
+    max-width: 1199px;
+    justify-content: space-between;
+}
+.gine-btn{
+    margin-right: 38px;
+    background-color: white;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+
+}
+.genie-search input{
+    padding: 8px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    border: 1px solid rgb(190, 189, 189);
+    border-radius: 6px;
+}
+.genie-search input:focus{
+    outline: none;
+}
+.genie-txt{
+    color: #e72e77;
+    font-weight: 600;
+    font-size: 16px;
+}
+.listgrid{
+    
+}

@@ -1,0 +1,20 @@
+.wedding-cards img,.wedding-cards video{
+    width: 285px;
+    height: 400px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+.view-all-btn button{
+    width: 400px;
+    padding: 15px;
+    border: 2px solid #e72e77;
+    background: transparent;
+    color: #e72e77;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.view-all-btn button:hover{
+    background-color:#e72e77;
+    color: white;
+    transition: 0.6s;
+}

@@ -1,0 +1,130 @@
+.section-p3 {
+    padding: 20px 160px;
+    max-width: 1800px;
+}
+
+#banner-img-txt {
+    background-image: url('https://images.wedmegood.com/images/rw-banner.png');
+    background-size: cover;
+    width: 1550px;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.global-txt {
+    font-family: sans-serif;
+}
+
+#real-wedding-filter {
+    display: flex;
+    background-color: white;
+    top: 0px;
+    position:sticky;
+
+}
+
+#real-wedding-filter select,
+#real-wedding-filter input[type='text'] {
+    width: 260px;
+    height: 50px;
+    padding-left: 6px;
+    padding-right: 6px;
+    cursor: pointer;
+    background-color: #eee;
+    border-radius: 0;
+    font-weight: 400;
+    border: none;
+}
+
+#real-wedding-filter select:hover {
+    color: #e72e77;
+    ;
+}
+
+#real-wedding-filter input[type='text']:hover {
+
+    cursor: text;
+}
+
+#real-wedding-filter input[type='text']:focus {
+    outline: none;
+}
+
+#banner-img-txt h5 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+
+}
+
+#banner-img-txt p {
+    text-align: center;
+    width: 1245px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -80px;
+
+}
+
+.photos-display {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photos-display .first-img {
+    width: 380px;
+    height: 160px;
+}
+
+.inline-photos {
+    display: flex;
+
+}
+
+.inline-photos img {
+    margin-top: 6px;
+    margin-right: 4px;
+    width: 186px;
+    height: 100px;
+}
+
+.photos-grid {
+    max-width: 400px;
+    margin-bottom: 60px;
+    margin-left: 18px;
+    background-color: white;
+}
+
+.photos-grid:hover {
+    cursor: pointer;
+}
+
+.flex-photos img {
+    width: 187px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.side-by-side {
+    margin-top: 6px;
+    display: flex;
+    max-width: 380px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.big-img img {
+    width: 380px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.photos-grid-view {
+    display: flex;
+    flex-wrap: wrap;
+}

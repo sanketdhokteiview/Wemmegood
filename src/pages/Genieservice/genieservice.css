@@ -1,0 +1,45 @@
+.genie-menue img {
+    width: 1200px;
+    height: 400px;
+}
+
+.genie-options .card {
+    width: 386px;
+    height: max-content;
+}
+.genie-options .card :hover{
+    cursor: pointer;
+}
+.download-button {
+    background-color: #e72e77;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin: 15px 0;
+    width: 250px;
+    border: none;
+}
+
+.box {
+    margin-top: 30px;
+    background-color: #ffebe8;
+}
+
+.download-app-data {
+    line-height: 1.6;
+    padding: 50px 20px;
+}
+.download-app-data input{
+    background: transparent;
+    border: none;
+    width: 330px;
+    border-bottom: 2px solid #c1c0c0;
+}
+.download-app-data input:focus{
+    outline: none;
+}
+.box img{
+    border: none;
+    border-left: 6px solid #fac4c4;
+}

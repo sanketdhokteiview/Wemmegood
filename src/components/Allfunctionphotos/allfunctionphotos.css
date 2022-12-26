@@ -1,0 +1,112 @@
+#allfunction-background img {
+    width: 1212px;
+    margin-top: 20px;
+    margin-left: -12px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.name-date {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 179px;
+    margin-left: 40px;
+    margin-top: -121px;
+    background-color: white;
+}
+
+.name-date img {
+    width: 60px;
+    margin-top: -11px;
+
+}
+
+.btn-div {
+    margin-top: -50px;
+    margin-right: 10px;
+}
+
+.btn-div button {
+    padding: 7px;
+    border: none;
+    color: #e72e77;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: proxima-nova, sans-serif
+}
+
+.btn-div button:hover {
+    background-color: #e72e77;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: proxima-nova, sans-serif;
+    transition: 0.6s ease;
+}
+
+.all-fun-photos-p {
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.tab-pane .frame {
+    padding: 4px;
+    width: 1198px;
+    /* margin: auto; */
+    margin-left: 0px;
+    height: max-content;
+    border: 2px solid #e72e77;
+    text-align: center;
+    overflow: hidden;
+}
+
+.tab-pane .frame button {
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    margin: auto;
+    margin-top: 16px;
+    align-items: center;
+    padding: 17px 65px 17px 65px;
+    border-radius: 25%;
+    background-color: white;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border: 1px solid rgb(231, 46, 119);
+    border-radius: 25px;
+    height: 50px;
+    font-size: 18px;
+    color: rgb(231, 46, 119);
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+.tab-pane .frame button:hover{
+    background-color: #e72e77;
+    color: white;
+    transition: 0.6s ease;
+}
+.tab-pane .frame img {
+    margin-top: 10px;
+    width: 296px;
+    height: 200px;
+    object-fit: cover;
+}
+/* .option-below-all-fun{
+    flex-wrap: wrap;
+    width: 1198px;
+} */
+.few-details-card{
+    width: 380px;
+    height: 150px;
+    margin-right: 10px;
+    border: 2px solid #e72e77;
+}
+.few-details-card img{
+    width: 40px;
+}

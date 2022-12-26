@@ -1,0 +1,526 @@
+.bg-color {
+    background-color: rgb(250, 250, 250);
+    font-family: proxima-nova, sans-serif;
+}
+
+.card-enter-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-enter-data #details-filling {
+    border: 1px solid rgb(210, 210, 210);
+    width: 450px;
+    height: 157px;
+    background-color: white;
+    font-family: proxima-nova, sans-serif;
+}
+
+#details-filling .pricing {
+    padding: 11px 6px 0px 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pricing-details {
+    padding-bottom: -60px;
+}
+
+.hr {
+    margin: 0rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid rgb(210, 210, 210);
+    opacity: 2.25;
+}
+
+.h5 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: proxima-nova, sans-serif;
+    color: #e72e77;
+}
+
+#form-filling {
+    margin-top: 30px;
+    border: 2px solid rgb(235, 235, 235);
+    background-color: white;
+    height: 66vh;
+    padding: 7px;
+    font-family: proxima-nova, sans-serif;
+}
+
+#form-filling .send-msg button {
+    padding: 10px 40px 10px 40px;
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: rgb(231, 46, 119);
+    border: 1px solid rgb(231, 46, 119);
+    margin-bottom: 15px;
+
+}
+
+#form-filling .contact button {
+    display: flex;
+    height: 50px;
+    width: 200px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 16px;
+    z-index: 0;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: rgb(0, 154, 9);
+    border: 1px solid rgb(0, 154, 9);
+    pointer-events: auto;
+    margin-bottom: 15px;
+}
+
+#form-filling .radio {
+    font-size: 12px;
+}
+
+#form-filling input[type='radio']:checked::after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: 2px;
+    left: -1px;
+    position: relative;
+    background-color: #e72e77;
+    content: '';
+    display: inline-block;
+    border: 1px solid white;
+}
+
+#form-filling .button {
+    width: 408px;
+    margin-left: 14px;
+    background-color: #e72e77;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    height: 50px;
+
+}
+
+#flexSwitchCheckDefault {
+    background-color: #009a09;
+}
+
+#form-filling .form-fields {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#form-filling .location {
+    line-height: 17px;
+    margin-top: 20px;
+    padding-left: 5px;
+    font-weight: 600;
+    font-family: proxima-nova, sans-serif;
+}
+
+.form-fields .fun-time {
+    padding-right: 100px;
+}
+
+.form-fields input {
+    border: none;
+    border-bottom: 1px solid rgb(137, 137, 137);
+}
+
+.form-fields ::placeholder {
+    font-size: 13px;
+    color: rgb(111, 112, 111);
+}
+
+.form-fields input:focus {
+    outline: none;
+    border-bottom: 2px solid #e72e77;
+}
+
+.form-fields .date input {
+    width: 200px;
+}
+
+.card-enter-data img {
+    height: 375px;
+    width: 720px;
+    border-radius: 2px;
+}
+
+#form-filling .p {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: proxima-nova, sans-serif;
+    text-align: center;
+}
+
+.card-enter-data #card-info {
+    background-color: white;
+    margin-left: 40px;
+    width: 640px;
+    margin-top: -40px;
+    border-radius: 2px;
+    position: relative;
+    z-index: 999;
+}
+
+.card-name-ratring,
+.card-location {
+    padding-left: 16px;
+}
+
+.card-name-ratring {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 0px 16px;
+}
+
+.green-txt {
+    color: #009a09;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card-enter-data #card-info .card-options-photos-review {
+    margin-top: 10px;
+    background-color: #d5d5d5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-enter-data #card-info .card-options-photos-review a {
+    text-decoration: none;
+    color: black;
+}
+
+.features {
+    margin-top: 20px;
+    width: 720px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.features a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+.main-section .room-details {
+    margin-top: 30px;
+    border-radius: 2px;
+    width: 720px;
+    background-color: white;
+}
+
+.room-details h4 {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 6px 12px 0px 10px;
+
+}
+
+.main-section .seating-floating {
+    width: 720px;
+    display: flex;
+    padding: 0px 12px;
+}
+
+.room-details .seating-floating p {
+    padding: 0px 51px;
+    margin-top: -7px;
+}
+
+.seating-floating .second-room {
+    padding: 0px 80px;
+}
+
+.portfolio-albums {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    width: 720px;
+    background-color: white;
+}
+
+.portfolio-albums .portfolio {
+    display: flex;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.portfolio-albums .portfolio p {
+    padding: 6px 36px;
+}
+
+.photosgrid .album-photos img {
+    border: 2px solid rgb(239, 239, 239);
+    margin: 3px;
+    width: 160px;
+    height: 20vh;
+    padding: 5px;
+}
+
+.photosgrid .album-photos img:hover {
+    box-shadow: 4px 7px 10px -2px rgb(0 0 0 / 75%);
+    cursor: pointer;
+}
+
+.photosgrid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-around;
+}
+
+.btn {
+
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.btn button {
+    height: 30px;
+    padding: 0 20px;
+    border-radius: 20px;
+    border: 1px solid #e72e77;
+    color: #e72e77;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn button:hover {
+    background-color: #e72e77;
+    color: white;
+    transition: 0.6s;
+}
+
+.details-of-venue {
+    background-color: white;
+    margin-top: 30px;
+}
+
+.details-of-venue h5 {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    height: 50px;
+}
+
+.details-of-venue p {
+    padding: 0px 10px;
+    line-height: 1.6;
+    font-family: proxima-nova, sans-serif;
+}
+
+.Rating-of-venue {
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+
+
+.progress {
+    --bs-progress-height: 1rem;
+    --bs-progress-font-size: 0.75rem;
+    --bs-progress-bg: white;
+    --bs-progress-border-radius: 0.375rem;
+    --bs-progress-box-shadow: inset 0 1px 2pxrgba(0, 0, 0, 0.075);
+    --bs-progress-bar-color: #fff;
+    --bs-progress-bar-bg: #0d6efd;
+    --bs-progress-bar-transition: width 0.6s ease;
+    display: flex;
+    height: var(--bs-progress-height);
+    overflow: hidden;
+    font-size: var(--bs-progress-font-size);
+    background-color: var(--bs-progress-bg);
+    border-radius: var(--bs-progress-border-radius);
+    padding: 1px;
+}
+
+.Rating-of-venue .review-rating {
+    border: none;
+    margin-top: -17px;
+    border-right: 1px solid black;
+}
+
+.Rating-of-venue .feedback input[type="text"] {
+    width: 85%;
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+}
+
+.Rating-of-venue .feedback input[type="checkbox"] {
+    width: 40px;
+}
+
+.Rating-of-venue .submitbtn {
+    position: relative;
+    left: 48%;
+    padding: 10px;
+    width: 142px;
+    background-color: #e72e77;
+    margin-bottom: 20px;
+    color: white;
+    border: none;
+}
+
+.Rating-of-venue .addphotobtn {
+    background: transparent;
+    position: relative;
+    left: 47%;
+    padding: 10px;
+    width: 144px;
+    border: 1px solid rgb(189, 189, 189);
+}
+
+.users-feedback .user-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.users-feedback {
+    padding: 10px;
+    background-color: white;
+}
+
+.users-feedback p {
+    margin-top: -5px;
+    width: 1100px;
+}
+
+.users-feedback .handles {
+    margin-left: -30px;
+}
+
+.users-feedback .handles .one:hover,
+.users-feedback .handles .two:hover {
+    color: #0056d7;
+    cursor: pointer;
+}
+
+.Q_and_A {
+    margin-top: 30px;
+    padding-top: 10px;
+    background-color: white;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.Q_and_A h5 {
+    padding-left: 10px;
+    font-family: proxima-nova, sans-serif;
+}
+
+.Q_and_A .qAnda {
+    background-color: rgb(247, 247, 247);
+    padding: 16px;
+    margin: 26px;
+    border-radius: 10px;
+}
+
+.qAnda .h3 {
+    color: #4a4a4a;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: proxima-nova, sans-serif;
+}
+
+.qAnda .p {
+    line-height: normal;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: proxima-nova, sans-serif;
+}
+
+.similar-options {
+    margin-top: 30px;
+    padding-top: 10px;
+    background-color: white;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.similardata {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.similardata img {
+    border-radius: 10px;
+    margin: 20px;
+    padding: 0px;
+    width: 225px;
+    height: 214px;
+}
+
+.similardata .img {
+    margin-top: -20px;
+    margin-left: 32px;
+    line-height: 0.6;
+}
+
+.similardata .card {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.similardata .card:hover {
+    cursor: pointer;
+    box-shadow: 4px 7px 10px -2px rgb(0 0 0 / 45%);
+}
+
+.heading .viewmore button:hover {
+    background-color: #e72e77;
+    color: white;
+    transition: 0.6s;
+}
+
+.heading .viewmore button {
+    margin-right: 10px;
+    border: none;
+    height: 30px;
+    padding: 0 20px;
+    border-radius: 20px;
+    border: 1px solid #e72e77;
+    color: #e72e77;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
+}

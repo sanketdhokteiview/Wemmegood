@@ -1,0 +1,71 @@
+.wedsta-banner img{
+    background-size: cover;
+    height: 600px;
+    margin-top: -159px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.adding-shadow {
+    color: white;
+    margin-top: -600px;
+    padding-top: 65px;
+    position: absolute;
+    bottom: 218px;
+    width: 100%;
+    z-index: 1;
+    font-family: Gilroy;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 29%, rgb(0, 0, 0));
+}
+.adding-shadow h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: proxima-nova;
+   margin-bottom: 30px;
+}
+.adding-shadow .two{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 0.83;
+    font-family: proxima-nova;
+}
+.adding-shadow .p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+}
+.price-tag .card{
+ width: 25em;
+line-height: 0.6;
+}
+.add-to-kart button{
+    margin-left: auto;
+    margin-right: 0px;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 0px 5px 0px;
+    border: 1px solid rgb(231, 46, 119);
+    width: 80px;
+    height: 36px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: white;
+}
+.add-to-kart button:hover{
+    background-color:rgb(231, 46, 119);
+    color: white;
+    border: 1px solid black;
+}
+.work-images img{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    width: 100%;
+    object-fit: cover;
+    padding: 6px;
+}

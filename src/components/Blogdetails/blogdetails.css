@@ -1,0 +1,27 @@
+.blog-details{
+    margin-top: 60px!important;
+    text-align: center;
+    align-items: center;
+    width: 700px;
+    margin: auto;
+}
+.blog-details h3{
+    margin-top: -277px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+.blog-details h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+.blog-details img{
+    object-fit: cover;
+    width: 600px;
+    height: 890px;
+}
+.logos{
+    z-index: -1;
+    margin-left: 250px;
+    position: sticky;
+    top: 60px;
+}

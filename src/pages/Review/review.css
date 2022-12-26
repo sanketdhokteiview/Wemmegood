@@ -1,0 +1,40 @@
+.review-text h4{
+    font-size: 32px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.review-text h6{
+    font-size: 15px;
+    color: rgb(103, 103, 103);
+}
+.form{
+width: 900px;
+height: 65vh;
+border: 2px solid rgb(236, 234, 234);
+padding: 20px 20px 20px 20px;
+}
+.p-10{
+    padding: 6px;
+}
+.p-10:focus{
+    outline: none;
+}
+.form p{
+    font-weight: 600;
+}
+::placeholder {
+    color: rgb(188, 188, 188);
+    opacity: 1; /* Firefox */
+  }
+.btn-color{
+    background-color: #e72e77;
+}  
+input[type="checkbox"]{
+    width: 18px;
+    height:18px;
+    margin-left: 10px;
+    
+}
+.form input[type="text"] ,.form textarea,.btn-add-photo{
+    border: none;
+    border: 2px solid rgb(236, 234, 234);
+}
