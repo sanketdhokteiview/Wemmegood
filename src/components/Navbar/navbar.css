@@ -111,10 +111,19 @@
 
 }
 #left .button {
-    padding-right: 110px;
+    padding-right: 8px;
     border: none;
     margin-top: 3px;
     border-radius: 1px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 62px;
+    -moz-osx-font-smoothing: grayscale;
 }
 #Navbar #right a{
     color: rgb(255, 255, 255);

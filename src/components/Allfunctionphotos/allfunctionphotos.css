@@ -101,7 +101,8 @@
     flex-wrap: wrap;
     width: 1198px;
 } */
-.few-details-card{
+.few-details-card {
+    padding: 9px;
     width: 380px;
     height: 150px;
     margin-right: 10px;

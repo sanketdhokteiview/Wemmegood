@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.color-1{
+  color: #e72e77;
+}
+.color-2{
+  color: #b4245d;
+}
+.bg-color-1{
+  background-color: #e72e77;
+}
+.bg-color-2{
+  background-color: #b4245d;
+}
+.bg-color{
+  background-color: rgb(250, 250, 250);
+  font-family: proxima-nova, sans-serif;
+}
+.button-style{
+  background-color: #e72e77;
+  border: none;
+  padding: 15px;
+  padding-left: 60px;
+  color: white;
+  font-weight: 600;
+  padding-right: 60px;
+  border-radius: 60px;
+}
+.faid-txt{
+  color: #909090;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Footer } from '../Footer/Footer'
 import { Navbar } from '../Navbar/Navbar'
+import { Link } from 'react-router-dom'
 import allfunctionphotos from "./allfunctionphotos.css"
 export const Allfunctionphotos = () => {
     const all_function_images = [
@@ -183,8 +184,8 @@ export const Allfunctionphotos = () => {
                     </div>
                 </section>
                 <section className='option-below-all-fun'>
-                    <h4> Tagged Vendors </h4>
-                    <div className='d-flex '>
+                    <h4 className='my-3'> Tagged Vendors </h4>
+                  <Link to="../Breedcrup">  <div className='d-flex '>
                         {more_options.map((data) => {
                             return (<>
                                 <div className='few-details-card'>
@@ -199,11 +200,12 @@ export const Allfunctionphotos = () => {
                                 </div>
                             </>)
                         })}
-                    </div>
+                    </div></Link>
 
                 </section>
             </section>
             <Footer />
+
         </>
     )
 }

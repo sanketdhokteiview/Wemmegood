@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 export const Home = () => {
   useEffect(() => {
     window.history.scrollRestoration = 'manual'
-    window.scrollTo(0,0)
+    window.scrollTo(0, 0)
   }, []);
   let fun_loc = [
     {
@@ -120,46 +120,102 @@ export const Home = () => {
     'date': '28 October 2022'
   }
   ]
-  let categories = [
-    {
-      "title": "Venues",
-      "location": "Banquet Halls,Lawns / Farmhouses",
-      "img": 'https://image.wedmegood.com/resized/250X/uploads/m_v_cat_image/1/venues.jpg',
-      'bgcolor': "rgb(216, 223, 252)"
-    },
-    {
-      "title": "Makeup",
-      "location": "Bridal Makeup,Family Makeup",
-      "img": 'https://image.wedmegood.com/resized/250X/uploads/m_v_cat_image/3/makeup.jpg',
-      'bgcolor': "rgb(244, 213, 194)"
-    },
-    {
-      "title": "Groom Wear",
-      "location": "Sherwani,Wedding Suits/Tuxes",
-      "img": 'https://image.wedmegood.com/resized/250X/uploads/m_v_cat_image/5/groom-wear.jpg',
-      'bgcolor': "rgb(223, 178, 173)"
-    },
-    {
-      "title": "Planning & Decor",
-      "location": "Wedding Planners,Decorators",
-      "img": 'https://image.wedmegood.com/resized/250X/uploads/m_v_cat_image/7/planning-decor.jpg',
-      'bgcolor': "rgb(207, 205, 184)"
-    },
-    {
-      "title": "Invites & Gifts",
-      "location": "Invitations,Favors,Trousseau Packers",
-      "img": 'https://image.wedmegood.com/resized/250X/uploads/m_v_cat_image/9/invites-gifts.jpg',
-      'bgcolor': "rgb(220, 247, 247)"
+  // let categories = [
+
+  //   {
+  //     "title": "Planning & Decor",
+  //     "location": "Wedding Planners,Decorators",
+  //     "img": 'https://image.wedmegood.com/resized/250X/uploads/m_v_cat_image/7/planning-decor.jpg',
+  //     'bgcolor': "rgb(207, 205, 184)"
+  //   },
+  //   {
+  //     "title": "Invites & Gifts",
+  //     "location": "Invitations,Favors,Trousseau Packers",
+  //     "img": 'https://image.wedmegood.com/resized/250X/uploads/m_v_cat_image/9/invites-gifts.jpg',
+  //     'bgcolor': "rgb(220, 247, 247)"
 
 
-    },
-    {
-      "title": "Jewellery & Accessories",
-      "location": "Jewellery,Flower Jewellery, Bridal Jewellery",
-      "img": 'https://image.wedmegood.com/resized/250X/uploads/m_v_cat_image/11/jewellaries-accessories.jpg',
-      'bgcolor': "rgb(229, 211, 189)"
+  //   },
+  //   {
+  //     "title": "Jewellery & Accessories",
+  //     "location": "Jewellery,Flower Jewellery, Bridal Jewellery",
+  //     "img": 'https://image.wedmegood.com/resized/250X/uploads/m_v_cat_image/11/jewellaries-accessories.jpg',
+  //     'bgcolor': "rgb(229, 211, 189)"
 
-    }]
+  //   }]
+  let dropdown = [{
+    title: 'Title 1 ',
+    data1: [
+      'View All Venues',
+      'Lawns / Farmshouses',
+      'Small Function / Party Halls',
+      'Kalyan Mandapam',
+      'Banquet Halls',
+      'Resorts',
+      'Destination Wedding',
+      '4 Star & Above Hotels',
+    ],
+    id: 'One',
+    "title": "Venues",
+    "location": "Banquet Halls,Lawns / Farmhouses",
+    "img": 'https://image.wedmegood.com/resized/250X/uploads/m_v_cat_image/1/venues.jpg',
+    'bgcolor': "rgb(216, 223, 252)"
+  },
+  {
+    title: 'title2',
+    data1: [
+      'Bridal Makeup',
+      'Family Makeup',
+      'Relatives Makeup',
+      'Friends Makeup'
+    ],
+    id: 'Two',
+    "title": "Makeup",
+    "location": "Bridal Makeup,Family Makeup",
+    "img": 'https://image.wedmegood.com/resized/250X/uploads/m_v_cat_image/3/makeup.jpg',
+    'bgcolor': "rgb(244, 213, 194)"
+  },
+  {
+    title: 'title3',
+    data1: ['View All Groom Wear',
+      'Wedding suits',
+      'Sherwani',
+      'Sherwani On Rent'],
+    id: 'Three',
+    "title": "Groom Wear",
+    "location": "Sherwani,Wedding Suits/Tuxes",
+    "img": 'https://image.wedmegood.com/resized/250X/uploads/m_v_cat_image/5/groom-wear.jpg',
+    'bgcolor': "rgb(223, 178, 173)"
+  }
+  ]
+  let dropdown2 = [{
+    title: 'Title 4 ',
+    data: ['Photographers','Per Wedding Shoots','Cinema/Video'],
+    id: 'Four',
+    "title": "Planning & Decor",
+    "location": "Wedding Planners , Decorators",
+    "img": 'https://image.wedmegood.com/resized/250X/uploads/m_v_cat_image/7/planning-decor.jpg',
+    'bgcolor': "rgb(207, 205, 184)"
+  },
+  {
+    title: 'title 5',
+    data: ['View All Bridal Wear','Bridal Lehengas','Kanjeevaram / Silk Sarees','Cocktail Gowns','Trousseau Sarees','Bridal Lehenga On Rent'],
+    id: 'Five',
+    "title": "Invites & Gifts",
+    "location": "Invitations , Favors , Trousseau Packers",
+    "img": 'https://image.wedmegood.com/resized/250X/uploads/m_v_cat_image/9/invites-gifts.jpg',
+    'bgcolor': "rgb(220, 247, 247)"
+  },
+  {
+    title: 'title6',
+    data: ['Mehendi Artist','Jewellery','Flower Jewellery', 'Bridal Jewellery'],
+    id: 'Six',
+    "title": "Jewellery & Accessories",
+    "location": "Jewellery,Flower Jewellery, Bridal Jewellery",
+    "img": 'https://image.wedmegood.com/resized/250X/uploads/m_v_cat_image/11/jewellaries-accessories.jpg',
+    'bgcolor': "rgb(229, 211, 189)"
+  }
+  ]
   return (
     <>
       <Navbar />
@@ -274,7 +330,7 @@ export const Home = () => {
           </Link>
 
         </div>
-        <section id="wedding-categories" className='section-p1'>
+        {/* <section id="wedding-categories" className='section-p1'>
           {categories.map((category) => {
             return (<div id="categories-1" style={{ backgroundColor: category.bgcolor }}>
               <div>
@@ -286,99 +342,92 @@ export const Home = () => {
               </div>
             </div>)
           })}
+        </section> */}
+        <section className='section-p1'>
+          <div className='d-flex '>
+            <div id="accordion" className='w-50 ' >
+              {dropdown.map((element) => {
+                return (
+                  <>
+                    {/* id="categories-1" */}
+                    <div class="" style={{ backgroundColor: element.bgcolor }}>
+                      <div class="" id="">
+                        <h5 >
+                          <div className='d-flex'>
+                            <div class="btn " data-toggle="collapse" data-target={"#" + `${element.id}`} aria-expanded="true" aria-controls="collapseOne">
+                              <div className='left-text'>
+                                <h6>{element.title}</h6>
+                                <small>{element.location}</small>
+                              </div>
+                              <div id='drop-img'>
+                                <img src={element.img} alt="" />
+                              </div>
+                            </div>
+                          </div>
+                        </h5>
+                      </div>
 
-        </section>
-        <section className='section-p1 d-flex'>
-          {/* <div id="accordion" className='w-50 '>
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Collapsible Group Item #1
-                  </button>
-                </h5>
-              </div>
+                      <div id={element.id} class="collapse one " aria-labelledby="headingOne" data-parent="#accordion">
+                        <div className='d-flex'>
 
-              <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor  synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
+                          <div class="card-body ">
+                            {element.data1.map((innerdata) => {
+                              return (<>
+                                <div className='col-6'>
+                                  {innerdata}
+                                </div>
+                              </>)
+                            })}
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div> <br />
+                  </>
+                )
+              })}
             </div>
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Collapsible Group Item #2
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit,  coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingThree">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Collapsible Group Item #3
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                </div>
-              </div>
+            <div id="accordion" className='w-50 mx-3 '>
+              {dropdown2.map((element) => {
+                return (
+                  <>
+                    {/* id="categories-1" */}
+                    <div class="" style={{ backgroundColor: element.bgcolor }}>
+                      <div class="" id="">
+                        <h5>
+                          <div className='d-flex'>
+                            <div class="btn " data-toggle="collapse" data-target={"#" + `${element.id}`} aria-expanded="true" aria-controls="collapseOne">
+                              <div className='left-text'>
+                                <h6>{element.title}</h6>
+                                <small>{element.location}</small>
+                              </div>
+                              <div id='drop-img'>
+                                <img src={element.img} alt="" />
+                              </div>
+                            </div>
+                          </div>
+                        </h5>
+                      </div>
+
+                      <div id={element.id} class="collapse one" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body ">
+                          {element.data.map((innerdata) => {
+                            return (<>
+                              <div className='col-6'>
+                                {innerdata}
+                              </div>
+                            </>)
+                          })}
+
+                        </div>
+                      </div>
+                    </div> <br />
+                  </>
+                )
+              })}
             </div>
           </div>
-          <div id="accordion" className='w-50'>
-            <div class="card">
-              <div class="card-header" id="headingfour">
-                <h5 class="mb-0">
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapsefour" aria-expanded="true" aria-controls="collapseOne">
-                    Collapsible Group Item #1
-                  </button>
-                </h5>
-              </div>
-
-              <div id="collapsefour" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                  wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingfive">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapseTwo">
-                    Collapsible Group Item #2
-                  </button>
-                </h5>
-              </div>
-              <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat  Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingsix">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapseThree">
-                    Collapsible Group Item #3
-                  </button>
-                </h5>
-              </div>
-              <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-          </div> */}
         </section>
       </section>
       <h3 className='section-p1'>WMG Inhouse Services</h3>
@@ -393,7 +442,7 @@ export const Home = () => {
                 <p></p>
                 <p><strong>{functionlocation.funName}</strong></p>
                 <p>{functionlocation.location}</p>
-               <Link to="../Wedsta"> <button id="btn">{functionlocation.button}</button></Link>
+                <Link to="../Wedsta"> <button id="btn">{functionlocation.button}</button></Link>
               </div>
               <br />
             </>

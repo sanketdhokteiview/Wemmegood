@@ -52,7 +52,7 @@ export const Invite = () => {
         <>
             <Navbar />
             <section className='section-p1 wedding-cards'>
-                <h5>Home &gt; Invitation Cards</h5>
+                <h5 className='faid-txt'>Home &gt; Invitation Cards</h5>
                 {wedding_card.map((card) => {
                     return (
                         <>
@@ -83,17 +83,17 @@ export const Invite = () => {
                             <div className='wedding-cards d-flex'>
                                 <div>
                                 {/* autoPlay  controls loop */}
-                                    <video src={clip.video1}  autoPlay controls loop/>
+                                    <video src={clip.video1}  autoPlay controls muted loop/>
                                     <h6 className='my-2 mx-1'> {clip['type-1']}</h6>
                                 </div>
                                 {/* autoPlay controls  loop */}
-                                <div> <video src={clip.video2} autoPlay controls loop/>  <h6 className='my-2 mx-1'>{clip['type-2']}</h6>
+                                <div> <video src={clip.video2} autoPlay controls muted loop/>  <h6 className='my-2 mx-1'>{clip['type-2']}</h6>
                                 </div>
                                 {/* autoPlay controls  loop */}
-                                <div> <video src={clip.video3}  autoPlay controls loop/>  <h6 className='my-2 mx-1'>{clip['type-3']}</h6>
+                                <div> <video src={clip.video3}  autoPlay controls muted loop/>  <h6 className='my-2 mx-1'>{clip['type-3']}</h6>
                                 </div>
                                 {/* autoPlay controls  loop */}
-                                <div> <video src={clip.video4}  autoPlay controls loop/>  <h6 className='my-2 mx-1'>{clip['type-4']}</h6>
+                                <div> <video src={clip.video4}  autoPlay controls muted loop/>  <h6 className='my-2 mx-1'>{clip['type-4']}</h6>
                                 
                                 </div>
                             </div>
