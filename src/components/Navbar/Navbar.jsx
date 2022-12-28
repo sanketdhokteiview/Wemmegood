@@ -5,8 +5,8 @@ import { useEffect } from 'react'
 export const Navbar = () => {
     useEffect(() => {
         window.history.scrollRestoration = 'manual'
-        window.scrollTo(0,0)
-      }, []);
+        window.scrollTo(0, 0)
+    }, []);
     return (
         <>
 
@@ -15,6 +15,7 @@ export const Navbar = () => {
                     <Link href="">India's Favourite Wedding Planning Platform</Link>
                     <button type="button" class=" btn-light button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         All Cities
+                    <i class="fa fa-caret-down"></i>
                     </button>
                 </div>
 
@@ -58,7 +59,8 @@ export const Navbar = () => {
             </section>
             <section id="Navbar">
                 <div id="left">
-                    <Link to="../" >Wed<strong>Me</strong>Good</Link>
+                
+                    <Link to="../" > Connecting<strong>Souls</strong></Link>
                     <Link to="../Breedcrup">Venues</Link>
                     <Link to="../Breedcrup">Vendors</Link>
                     <Link to="../Photos">Photos</Link>
@@ -142,7 +144,6 @@ export const Navbar = () => {
                     </div>
                 </div>
             </div>
-
 
 
 
